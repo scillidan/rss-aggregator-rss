@@ -41,7 +41,7 @@ processed_links_file = "processed_links.txt"
 
 # Define the time threshold: only process entries from the last 3 hours.
 recent_time_threshold = datetime.datetime.now(
-    datetime.timezone.utc) - datetime.timedelta(hours=3)
+    datetime.timezone.utc) - datetime.timedelta(days=365)
 
 # Helper to normalize URLs (remove fragments, queries, and trailing slashes)
 def normalize_url(url: str) -> str:
@@ -186,7 +186,7 @@ def update_feed(sorted_entries):
         ).text = "https://scillidan.github.io/rss-aggregator-rss/aggregated_feed.xml"
         etree.SubElement(
             channel, "description"
-        ).text = "An aggregated feed of Microsoft blogs"
+        ).text = "Aggregated GitHub Releases Feed"
 
     # Only update lastBuildDate if the feed content actually changes
     last_build_date = channel.find("lastBuildDate")
