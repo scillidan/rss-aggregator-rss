@@ -2,7 +2,384 @@
   <channel>
     <title>RSS Aggregator Feed</title>
     <link>https://scillidan.github.io/rss-aggregator-rss/aggregated_feed.xml</link>
-    <description>An aggregated feed of Microsoft blogs</description>
-    <lastBuildDate>Tue, 02 Jun 2026 08:49:22 GMT</lastBuildDate>
+    <description>Aggregated GitHub Releases Feed</description>
+    <lastBuildDate>Tue, 02 Jun 2026 09:00:52 GMT</lastBuildDate>
+    <item>
+      <title>4.6.3-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.6.3-stable</link>
+      <pubDate>2026-05-20T21:04:19Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.6.3-stable</guid>
+      <description>Godot 4.6.3 is a maintenance release addressing stability and usability issues, and fixing all sorts of bugs. Maintenance releases are compatible with previous releases and are recommended for adoption.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>4.6.2-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.6.2-stable</link>
+      <pubDate>2026-04-01T19:27:49Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.6.2-stable</guid>
+      <description>Godot 4.6.2 is a maintenance release addressing stability and usability issues, and fixing all sorts of bugs. Maintenance releases are compatible with previous releases and are recommended for adoption.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>v2.1.1-beta</title>
+      <link>https://github.com/mulaRahul/keyviz/releases/tag/v2.1.1</link>
+      <pubDate>2026-04-01T13:56:36Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/516753000/v2.1.1</guid>
+      <description>&#129657; Bug Fixes
+
+mouse indicator offset #421
+filter numpad keys #426
+remember monitor selection #401
+
+&#10024; New Contributors
+
+@xhugoliu made their contribution in #452
+
+&#10071;On macOS "keyviz" is damaged
+If you get the above error message, visit #420.
+Full Changelog: v2.1.0...v2.1.1</description>
+    </item>
+    <item>
+      <title>4.6.1-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.6.1-stable</link>
+      <pubDate>2026-03-30T02:50:42Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.6.1-stable</guid>
+      <description>Godot 4.6.1 is a maintenance release addressing stability and usability issues, and fixing all sorts of bugs. Maintenance releases are compatible with previous releases and are recommended for adoption.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>v2.0.0-alpha.4</title>
+      <link>https://github.com/rhysd/Shiba/releases/tag/v2.0.0-alpha.4</link>
+      <pubDate>2026-03-29T16:47:46Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/38579767/v2.0.0-alpha.4</guid>
+      <description>
+Support multiple windows so that multiple documents can be previewed at the same time. Now a single Shiba process can open multiple windows. When the last window is closed, or 'Quit' menu item or key action is selected, the process exits.
+
+Implement the following ways to open new windows in several situations.
+
+Clicking a link to local markdown file with pressing Shift key opens the file in a new window.
+Clicking a hash link (e.g. [link](#hash)) with pressing Shift key opens the current document in a new window and automatically scrolling to the linked element.
+'New Window' menu item or NewWi...</description>
+    </item>
+    <item>
+      <title>v2.0.0-alpha.3</title>
+      <link>https://github.com/rhysd/Shiba/releases/tag/v2.0.0-alpha.3</link>
+      <pubDate>2026-03-24T17:19:40Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/38579767/v2.0.0-alpha.3</guid>
+      <description>
+Breaking change: Rename key actions Forward and Back to more clear names GoForward and GoBack.
+Breaking chagne: There were two key shortcut systems in Shiba; (1) our own key shortcut system configurable in config.yml and (2) platform-specific menu items. However two systems existing in one app was confusing and the behavior of menu item key shortcuts depended on the platforms. This release removes platform-specific key shortcuts in menu items and unifies all key actions into our own key shortcut system which is configurable at the keymaps section of the configuration file. The following key a...</description>
+    </item>
+    <item>
+      <title>v2.0.0-alpha.2</title>
+      <link>https://github.com/rhysd/Shiba/releases/tag/v2.0.0-alpha.2</link>
+      <pubDate>2026-03-24T17:19:23Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/38579767/v2.0.0-alpha.2</guid>
+      <description>
+BREAKING CHANGE: Rename preview.recent_files setting to preview.history_size. This needs fix in the configuration file. Please fix it manually or re-generate it by the --generate-config-file command line option.
+ preview:
+-  recent_files: 100
++  history_size: 100
+
+Move the reopened history item to the top of the history so that it can be easily accessed later.
+Set the application icon in dock when Shiba is run from terminal on macOS.
+Avoid a white screen flicker when opening the application with a large Markdown file in dark mode.
+Remove file paths which don't exist while navigating the histo...</description>
+    </item>
+    <item>
+      <title>v2.0.0-alpha.1</title>
+      <link>https://github.com/rhysd/Shiba/releases/tag/v2.0.0-alpha.1</link>
+      <pubDate>2026-03-24T17:19:07Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/38579767/v2.0.0-alpha.1</guid>
+      <description>
+Compress the bundled JavaScript source with Zstandard algorithm for release builds. This made the binary size 1.45x smaller.
+Allow selecting multiple files and directories at once via dialogs.
+Upgrade MathJax to v4, which is the culmination of several years of work.
+Support physics notations in math expressions.
+History implementation was refactored with index map data structure.
+Migrate from commonjs to ESM. This made the bundle size about 6% smaller.
+Change the environment variables for debug logs
+
+RUST_LOG &#8594; SHIBA_LOG
+RUST_LOG_STYLE &#8594; SHIBA_LOG_STYLE
+
+
+Fix the saved history items can be tr...</description>
+    </item>
+    <item>
+      <title>v2.0.0-alpha.0</title>
+      <link>https://github.com/rhysd/Shiba/releases/tag/v2.0.0-alpha.0</link>
+      <pubDate>2026-03-24T17:18:48Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/38579767/v2.0.0-alpha.0</guid>
+      <description>This is the first experimental release of Shiba v2. Shiba v2 is the complete rewrite of v1 using Rust and platform-specific WebView. Please read the README.md file for more details.
+WarningShiba v2 is a work in progress
+
+For v1, please go to the v1 branch.</description>
+    </item>
+    <item>
+      <title>4.5.2-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.5.2-stable</link>
+      <pubDate>2026-03-19T14:48:10Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.5.2-stable</guid>
+      <description>Godot 4.5.2 is a maintenance release addressing stability and usability issues, and fixing all sorts of bugs. Maintenance releases are compatible with previous releases and are recommended for adoption.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>v2.1.0-beta &#127882; Release</title>
+      <link>https://github.com/mulaRahul/keyviz/releases/tag/v2.1.0</link>
+      <pubDate>2026-02-03T07:20:11Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/516753000/v2.1.0</guid>
+      <description>&#128640; What&#8217;s New?
+
+Mouse Indicators: Now show clicks and scrolls alongside your cursor.
+Custom Filters: Per-key control over what is visualized.
+Press Count: A new bubble-style counter to track your keypresses.
+
+&#10024; Big Changes
+
+Rebuilt with Rust &#129408;: I started from scratch! The app is now faster, more stable, and acts like a native desktop app.
+Tiny Footprint: Shrunk the app size down to just ~4MB.
+Style Backups: You can now export and backup your Kecap styles as .json files.
+Windows Verified: No more security warnings&#8212;the Windows app is now officially code-signed.
+
+&#10071;On macOS "keyviz" is damaged
+If y...</description>
+    </item>
+    <item>
+      <title>4.6-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.6-stable</link>
+      <pubDate>2026-01-26T17:13:18Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.6-stable</guid>
+      <description>Godot 4.6 is a feature release improving upon the previous version in many aspects, such as usability and performance. Feature releases also contain new features, but preserve compatibility with previous releases.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>Dialogic 2.0 - Alpha 19</title>
+      <link>https://github.com/dialogic-godot/dialogic/releases/tag/2.0-alpha-19</link>
+      <pubDate>2026-01-12T00:10:33Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/270304593/2.0-alpha-19</guid>
+      <description>Another year, another alpha &#128517;. Hope you're doing well. Hope this alpha won't break anything. It certainly fixes and improves a bunch of things. Thanks for anyone who supports the project, financially, through contributions, reports or by using it for cool things.
+Notably I've pushed the minimum required version to Godot 4.4. It actually worked somewhat alright with 4.3, but showed a bunch of warnings because of UIDs not being properly supported back then. This will give us some flexibility to go all in on UIDs moving forward. Speaking of the future, the next update will likely finally bring so...</description>
+    </item>
+    <item>
+      <title>4.5.1-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.5.1-stable</link>
+      <pubDate>2025-10-25T23:21:45Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.5.1-stable</guid>
+      <description>Godot 4.5.1 is a maintenance release addressing stability and usability issues, and fixing all sorts of bugs. Maintenance releases are compatible with previous releases and are recommended for adoption.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>3.6.2-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/3.6.2-stable</link>
+      <pubDate>2025-10-25T21:32:33Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/3.6.2-stable</guid>
+      <description>Godot 3.6.2 is a maintenance release addressing stability and usability issues, and fixing all sorts of bugs. Maintenance releases are compatible with previous releases and are recommended for adoption.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>Alpha v0.25.1</title>
+      <link>https://github.com/chaiNNer-org/chaiNNer/releases/tag/v0.25.1</link>
+      <pubDate>2025-10-23T00:16:57Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/404144554/v0.25.1</guid>
+      <description>This is a small update to address a few issues that have been resolved since the last release. If the current version of chaiNNer is working fine for you, you can ignore this update.
+If you have an older (1000 series or lower) Nvidia GPU, please reinstall PyTorch from the dependency manager.
+What's Changed
+
+Fix GTX 1000 series GPU compatibility with PyTorch (#3161)
+Fix conditional input validation bug causing NOT logic operation to require hidden input B (#3154)
+Fix audio not saving in save video node (#3174)
+Fix dependency resolution to prevent using global Python site-packages (#3134)
+Fix Te...</description>
+    </item>
+    <item>
+      <title>Alpha v0.25.0</title>
+      <link>https://github.com/chaiNNer-org/chaiNNer/releases/tag/v0.25.0</link>
+      <pubDate>2025-10-19T22:07:30Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/404144554/v0.25.0</guid>
+      <description>After more than a year without a stable release, chaiNNer development has resumed at reduced capacity. This release brings the features from the nightly version to stable (with many of the reported bugs from the nightly version fixed).
+The main new feature is support for using multiple iterators of equal length together. Nested or combined iteration is still not supported. UX for this feature remains limited but stable based on user feedback.
+Users with RTX 5000-series GPUs should install this update and update PyTorch through the dependency manager.
+Changelog:
+Major Changes:
+
+Add support for ...</description>
+    </item>
+    <item>
+      <title>Dialogic 2.0  - Alpha 18</title>
+      <link>https://github.com/dialogic-godot/dialogic/releases/tag/2.0-alpha-18</link>
+      <pubDate>2025-09-29T16:31:38Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/270304593/2.0-alpha-18</guid>
+      <description>Oops. Something broke. Here is a version where number fields DO allow negative values &#128584;.
+See the alpha 17 release for the cool new stuff.
+Happy creating &#128516;
+What's Changed
+
+Editor: Fix/Improve number fields by @Jowan-Spooner in #2672
+</description>
+    </item>
+    <item>
+      <title>Dialogic 2.0 - Alpha 17</title>
+      <link>https://github.com/dialogic-godot/dialogic/releases/tag/2.0-alpha-17</link>
+      <pubDate>2025-09-26T15:52:03Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/270304593/2.0-alpha-17</guid>
+      <description>Finally... another alpha! &#129346;
+It's been way to long, but here it is. And this one has it all: features, fixes and breaking changes &#128584;.
+Some of the highlights are:
+
+Play from here: Right click (or CTRL+F6) to test the timeline starting right where you are!
+Character Prefixes and Suffixes: Make your characters texts unique. Now twice as easily!
+Fade out timelines: Timelines will now finally gracefully exit without having to add a clear event.
+Timeline Shortcut CheatSheet: Read about all your favourite shortcuts in this handy new overview.
+Replace: You can now easily replace in timelines with CTRL+R...</description>
+    </item>
+    <item>
+      <title>4.5-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.5-stable</link>
+      <pubDate>2025-09-16T01:07:49Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.5-stable</guid>
+      <description>Godot 4.5 is a feature release improving upon the previous version in many aspects, such as usability and performance. Feature releases also contain new features, but preserve compatibility with previous releases.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
+    <item>
+      <title>v2.0.0-alpha3</title>
+      <link>https://github.com/mulaRahul/keyviz/releases/tag/v2.0.0a3</link>
+      <pubDate>2025-08-08T07:31:47Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/516753000/v2.0.0a3</guid>
+      <description>&#128027; Bug Fixes
+
+middle click eeb605a
+expose drag threshold a8bb1a9 and fix #353
+fix scroll event showing on ignore mouse events #351
+fix mechanical keycap style #286
+filter Fn keys with hotkey filter 99f9660
+
+&#10071; Please be advised this is an alpha release, so bugs are more than expected! Do contact/open an issue if you find any &#128027;.</description>
+    </item>
+    <item>
+      <title>3.6.1-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/3.6.1-stable</link>
+      <pubDate>2025-06-25T12:28:07Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/3.6.1-stable</guid>
+      <description>Godot 3.6.1 is a maintenance release addressing stability and usability issues, and fixing all sorts of bugs. Maintenance releases are compatible with previous releases and are recommended for adoption.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
   </channel>
 </rss>
