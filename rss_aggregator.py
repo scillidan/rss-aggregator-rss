@@ -33,6 +33,7 @@ rss_feed_urls = [
     "https://github.com/mulaRahul/keyviz/releases.atom",
     "https://github.com/rhysd/Shiba/releases.atom",
     "https://github.com/chaiNNer-org/chaiNNer/releases.atom",
+    "https://github.com/razakadam74/gitmsg/releases.atom"
 ]
 
 # Set the output file name and state file
