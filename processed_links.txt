@@ -30,3 +30,4 @@
 2026-06-05T00:53:08 https://github.com/razakadam74/gitmsg/releases/tag/v0.5.1
 2026-06-07T06:50:11 https://github.com/razakadam74/gitmsg/releases/tag/v0.6.0
 2026-06-08T05:18:27 https://github.com/razakadam74/gitmsg/releases/tag/v0.7.0
+2026-06-12T05:56:57 https://github.com/razakadam74/gitmsg/releases/tag/v0.8.0

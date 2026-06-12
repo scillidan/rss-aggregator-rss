@@ -3,6 +3,16 @@
     <title>RSS Aggregator Feed</title>
     <link>https://scillidan.github.io/rss-aggregator-rss/aggregated_feed.xml</link>
     <description>Aggregated GitHub Releases Feed</description>
-    <lastBuildDate>Fri, 12 Jun 2026 01:58:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 07:06:58 GMT</lastBuildDate>
+    <item>
+      <title>v0.8.0</title>
+      <link>https://github.com/razakadam74/gitmsg/releases/tag/v0.8.0</link>
+      <pubDate>2026-06-12T05:56:57Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/1232591685/v0.8.0</guid>
+      <description>Minor Changes
+
+0e2c696: Add Rust language extractor for symbol-aware subject lines on .rs files. Recognises top-level fn, struct, enum, trait, type aliases, and const declarations &#8212; including generics, async/unsafe/const/extern "C" function qualifiers, and unsafe auto traits. Visibility comes from the pub line prefix, so pub(crate)/pub(super) read as non-exported. Methods (indented inside impl/trait blocks), inline-module items, static, union, and macro_rules! are out of scope; see docs/languages/rust.md for the full pattern ladder and blind spots.
+...</description>
+    </item>
   </channel>
 </rss>
