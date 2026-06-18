@@ -3,6 +3,27 @@
     <title>RSS Aggregator Feed</title>
     <link>https://scillidan.github.io/rss-aggregator-rss/aggregated_feed.xml</link>
     <description>Aggregated GitHub Releases Feed</description>
-    <lastBuildDate>Thu, 18 Jun 2026 09:57:06 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 13:50:21 GMT</lastBuildDate>
+    <item>
+      <title>4.7-stable</title>
+      <link>https://github.com/godotengine/godot/releases/tag/4.7-stable</link>
+      <pubDate>2026-06-18T12:18:02Z</pubDate>
+      <guid isPermaLink="false">tag:github.com,2008:Repository/15634981/4.7-stable</guid>
+      <description>Godot 4.7 is a feature release improving upon the previous version in many aspects, such as usability and performance. Feature releases also contain new features, but preserve compatibility with previous releases.
+Report bugs on GitHub after checking that they haven't been reported:
+
+https://github.com/godotengine/godot/issues
+
+
+
+Release notes
+Complete changelog
+Curated changelog
+
+
+
+Download (GitHub): Expand Assets below
+...</description>
+    </item>
   </channel>
 </rss>
